@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MBBS</title>
+        <script src="mcq_js.js"></script>
+        <style>
+            .white_color{
+                color:wheat;
+            }
+        </style>
+    </head>
+<body>
+    <h1 id="title" style="text-align:center;color:white;background-color:royalblue" contenteditable="true">MBBS enterence exam</h1>
+
+    <div id="q_box" style="background-color:rgb(52, 171, 250);width:400px">
+        <h3 style="color:white;background-color:rgb(13, 136, 218);" id="this_q">1.)how many champer in heart</h3>
+        <ol>
+            <li class="white_color" id="opt_1"><input type="radio" value=3  name="Q1"/>three</li>
+            <li class="white_color" id="opt_2"><input type="radio" value=2  name="Q1"/>two</li>
+            <li class="white_color" id="opt_3"><input type="radio" value=4  name="Q1"/>four</li>
+            <li class="white_color" id="opt_4"><input type="radio" value=5  name="Q1"/>five</li>
+        </ol>
+    </div>
+    
+    <input type="button" value="answer" id="answer_button" onclick="config()">
+    <input type="button" value="next" id="next_button" onclick="change()">
+</body>
+</html>
